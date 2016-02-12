@@ -1,0 +1,4 @@
+{
+	"page": "chat\\.stackoverflow\\.com\/rooms\/(\\d+)",
+	"files": ["plugin.js"]
+}

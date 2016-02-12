@@ -1,0 +1,11 @@
+{
+  "name": "chatoverflow",
+  "version": "0.0.1",
+  "description": "A wrapper for the StackOverflow chat.",
+  "main": "main.js",
+  "scripts": {
+    "run": "./node_modules/.bin/electron ."
+  },
+  "author": "Benjamin Fortune <benjamin.fortune1@gmail.com>",
+  "license": "MIT"
+}
