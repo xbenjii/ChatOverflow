@@ -3,9 +3,6 @@
 const fs = require('fs');
 const remote = require('electron').remote;
 
-const Menu = remote.Menu;
-const MenuItem = remote.MenuItem;
-
 const webview = document.querySelector('#webview');
 
 fs.readdir(`./plugins`, (err, plugins) => {
@@ -23,6 +20,7 @@ fs.readdir(`./plugins`, (err, plugins) => {
 							fs.readFile(`./plugins/${plugin}/${file}`, (err, code) => {
 								if(err) {
 									console.log(`Error loading plugin (${plugin}/${file}): ${err}`);
+									return;
 								}
 								webview.insertCSS(code);
 							});
@@ -31,6 +29,7 @@ fs.readdir(`./plugins`, (err, plugins) => {
 							fs.readFile(`./plugins/${plugin}/${file}`, (err, code) => {
 								if(err) {
 									console.log(`Error loading plugin (${plugin}/${file}): ${err}`);
+									return;
 								}
 								webview.executeJavaScript(code);
 							});
