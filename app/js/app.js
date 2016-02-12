@@ -17,7 +17,7 @@ fs.readdir(`./plugins`, (err, plugins) => {
 					pluginSettings.files.forEach((file) => {
 						if(file.includes('.css')) {
 							console.log(`Loading plugin ${plugin}/${file}`)
-							fs.readFile(`./plugins/${plugin}/${file}`, (err, code) => {
+							fs.readFile(`./plugins/${plugin}/${file}`, 'utf8', (err, code) => {
 								if(err) {
 									console.log(`Error loading plugin (${plugin}/${file}): ${err}`);
 									return;
@@ -26,7 +26,7 @@ fs.readdir(`./plugins`, (err, plugins) => {
 							});
 						} else if(file.includes('.js')) {
 							console.log(`Loading plugin ${plugin}/${file}`);
-							fs.readFile(`./plugins/${plugin}/${file}`, (err, code) => {
+							fs.readFile(`./plugins/${plugin}/${file}`, 'utf8', (err, code) => {
 								if(err) {
 									console.log(`Error loading plugin (${plugin}/${file}): ${err}`);
 									return;
