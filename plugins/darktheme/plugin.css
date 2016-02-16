@@ -89,7 +89,7 @@
 body,
 #loading {
   background-color: #000 !important;
-  background-image: url("http://i.stack.imgur.com/SxaRm.png") !important;
+  background-image: url("https://i.stack.imgur.com/SxaRm.png") !important;
   color: #ddd !important;
   box-shadow: none !important; }
   body #loading-message,
@@ -140,12 +140,12 @@ div#starred-posts > div > ul > li {
   background-color: #333 !important; }
 
 .sprite {
-  background-image: url("http://i.stack.imgur.com/Da7jC.png") !important; }
+  background-image: url("https://i.stack.imgur.com/Da7jC.png") !important; }
 
 .wmd-prompt-dialog {
   border: none !important;
   background-color: #000 !important;
-  background-image: url("http://i.stack.imgur.com/SxaRm.png") !important;
+  background-image: url("https://i.stack.imgur.com/SxaRm.png") !important;
   color: #ddd !important; }
 
 body.outside #container,
@@ -218,7 +218,7 @@ body.moderator-room #input {
 
 #main #input-area {
   background-color: #333 !important;
-  background-image: url("http://i.stack.imgur.com/JfVoA.png") !important; }
+  background-image: url("https://i.stack.imgur.com/JfVoA.png") !important; }
 
 div.message {
   margin-left: 3px !important;
@@ -306,7 +306,7 @@ ul#my-rooms {
     ul#my-rooms .quickleave:hover {
       opacity: 1.0 !important; }
   ul#my-rooms .quickswitch, ul#my-rooms .quickleave {
-    background-image: url("http://i.stack.imgur.com/Da7jC.png") !important; }
+    background-image: url("https://i.stack.imgur.com/Da7jC.png") !important; }
   ul#my-rooms > li:hover {
     background-color: #333 !important; }
     ul#my-rooms > li:hover a div.last-message {
@@ -357,7 +357,7 @@ ul#my-rooms {
 
 /**** Background colors *****/
 .vote-count-container.stars .img {
-  background-image: url("http://i.stack.imgur.com/Da7jC.png") !important; }
+  background-image: url("https://i.stack.imgur.com/Da7jC.png") !important; }
 
 .vote-count-container.stars.owner-star .img, .vote-count-container.stars.user-star .img, .vote-count-container.stars.owner-star.user-star .img {
-  background-image: url("http://i.stack.imgur.com/Da7jC.png") !important; }
+  background-image: url("https://i.stack.imgur.com/Da7jC.png") !important; }
